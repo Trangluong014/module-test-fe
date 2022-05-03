@@ -41,7 +41,7 @@ function App() {
                   }
                 >
                   <Route path="/" element={<BrowsePage />} />
-                  <Route path="/" element={<JobPage />} />
+
                   <Route path="/login" element={<LoginPage />} />
                   <Route
                     path="/favorite"
@@ -55,7 +55,6 @@ function App() {
                     path="/company/:companyId"
                     element={<CompanyDetails />}
                   />
-                  <Route path="/jobs/:jobId" element={<JobDetails />} />
                 </Route>
               </Routes>
             </FavoriteContextProvider>
