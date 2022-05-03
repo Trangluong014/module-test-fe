@@ -10,8 +10,7 @@ import MainLayout from "./layouts/Layout";
 import AccountPage from "./pages/AccountPage";
 import BrowsePage from "./pages/BrowsePage";
 import CompanyDetails from "./pages/CompanyDetails";
-import JobDetails from "./pages/JobDetails";
-import JobPage from "./pages/JobPage";
+
 import LoginPage from "./pages/LoginPage";
 
 function App() {
